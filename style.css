@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+body {
+    font-family: Alata, sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFBE5;
+}
+
+.header {
+    padding: 0; 
+}
+
+.header img {
+    width: 100%; 
+    height: 368px; 
+    object-fit: cover;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-inline: 25px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #00396b;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+.promo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.promo-section img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.promo-card-mobile {
+    display: none;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #a8a8a9;
+    margin: 20px 0;
+}
+
+.promo-text {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 25px 20px 25px;
+}
+
+footer span {
+    font-size: 14px;
+    color: #909090;
+    font-weight: 700;
+}
+
+
+@media (max-width: 600px) {
+    .content p {
+        font-size: 16px;
+    }
+    .promo-text {
+        font-size: 12px;
+    }
+    .promo-card-mobile {
+        display: block;
+    }
+    .promo-card-desktop {
+        display: none;
+    }
+}
